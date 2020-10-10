@@ -1,0 +1,39 @@
+.footer {
+  background: #EDC863;
+  padding-top: 23px;
+  padding-bottom: 30px;
+
+  &__container {
+    display: flex;
+    justify-content: space-evenly;
+    // padding-left: 176px;
+  }
+
+
+  &__text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #8E4217;
+    max-width: 654px;
+
+    &-1 {
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    @media screen and (max-width: 768px) {
+      align-items: center;
+    }
+  }
+
+  &__img {
+    padding-top: 26px;
+    margin-right: 32px;
+
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+  }
+}

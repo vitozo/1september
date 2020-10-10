@@ -1,0 +1,82 @@
+.welcome__desc {
+  display: flex;
+  margin-top: 45px;
+}
+
+.desc {
+  &__list {
+    display: flex;
+    position: relative;
+    margin-bottom: 70px;
+
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__item {
+    flex: 1;
+    margin-right: 90px;
+    position: relative;
+
+    &::after {
+      content: "";
+      display: block;
+      background: url(../../img/icons/arrow.svg) no-repeat;
+      position: absolute;
+      width: 115px;
+      height: 30px;
+      right: -100px;
+      top: 49px;
+    }
+
+    &:last-child::after {
+      display: none;
+    }
+
+    @media screen and (max-width: 768px) {
+      width: 70%;
+      margin-right: 0;
+      margin-bottom: 15px;
+
+      &::after {
+        display: none;
+      }
+    }
+  }
+
+
+
+  &__title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    position: relative;
+
+    @media screen and (max-width: 768px) {
+      text-align: center;
+    }
+  }
+
+  &__img {
+    margin-right: 20px;
+  }
+
+}
+
+.desc__text {
+  font-size: 16px;
+  line-height: 19px;
+
+  &-span {
+    color: $red-color;
+    letter-spacing: 1.3;
+  }
+
+  @media screen and (max-width: 768px) {
+    text-align: center;
+  }
+}

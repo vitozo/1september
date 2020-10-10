@@ -1,0 +1,63 @@
+.main-smi {
+  background: url('../../img/smi-bg.png') no-repeat;
+  background-size: cover;
+  box-shadow: 0px 0px 50px rgba(51, 10, 10, 0.2);
+  min-height: 280px;
+  border-top: 3px solid #EDC863;
+  display: flex;
+  justify-content: center;
+}
+
+.smi {
+  padding-top: 40px;
+  flex-direction: column;
+
+  &__title {
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 57px;
+    line-height: 68px;
+    text-transform: uppercase;
+    color: $red-color;
+    margin-bottom: 50px;
+  }
+
+  &__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    max-width: 780px;
+    padding-left: 27%;
+    margin-bottom: 25px;
+
+    @media screen and (max-width: 768px) {
+      padding-left: 11%;
+    } 
+  }
+
+  &__link {
+    text-decoration: underline;
+    color: $blue-color;
+  }
+
+  &__file {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 298px;
+
+    &-link {
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 19px;
+      color: $blue-color;
+      text-decoration: none;
+
+      &-img{
+        padding-right: 10px;
+      }
+    }
+  }
+
+}

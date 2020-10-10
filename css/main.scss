@@ -1,0 +1,36 @@
+// Вынес общие цвета
+
+$black-color:#000000;
+$red-color: #D52E1E;
+$blue-color: #1E4295;
+
+
+@import "./misc_/normalize.scss";
+
+@import "./misc_/fonts.scss"; /* Шрифты*/
+@import "./misc_/layout.scss"; /*Основные настройки лейаута*/
+
+
+
+// Разделил все стили по файлам блоков, 
+// что-бы все не превращалось в один файл
+// дабы в будущем работать было проще
+
+@import "./blocks/header.scss";
+@import "./blocks/welcome.scss";
+@import "./blocks/welcome__content.scss";
+@import "./blocks/welcome__desc.scss";
+@import "./blocks/main-action.scss";
+@import "./blocks/terms.scss";
+@import "./blocks/countdown.scss";
+@import "./blocks/main-congrats.scss";
+@import "./blocks/main-child.scss";
+@import "./blocks/main-postal.scss";
+@import "./blocks/field.scss";
+@import "./blocks/share.scss";
+@import "./blocks/btn-download.scss";
+@import "./blocks/partners.scss";
+@import "./blocks/organizers.scss";
+@import "./blocks/smi.scss";
+@import "./blocks/nav.scss";
+@import "./blocks/footer.scss";

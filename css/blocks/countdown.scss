@@ -1,0 +1,120 @@
+.countdown {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 65px;
+
+  &__desc {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+
+  &__img {
+    margin-right: 25px;
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    display: flex;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  &__time {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 57.6px;
+    line-height: 69px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+  }
+
+  &__clock-1 {
+    position: relative;
+
+    &::before {
+      content: "";
+      background: url('../img/icons/time-icon-1.svg') no-repeat;
+      position: absolute;
+      width: 96px;
+      height: 96px;
+      top: -12px;
+      left: -26px;
+    }
+
+    &::after {
+      content: ":";
+      position: absolute;
+      left: 73px;
+    }
+  }
+
+  &__clock-2 {
+    position: relative;
+
+    &::before {
+      content: "";
+      background: url('../img/icons/time-icon-2.svg') no-repeat;
+      position: absolute;
+      width: 96px;
+      height: 96px;
+      top: -12px;
+      left: -26px;
+    }
+
+    &::after {
+      content: ":";
+      position: absolute;
+      left: 73px;
+    }
+
+  }
+
+  &__clock-3 {
+    position: relative;
+
+    &::before {
+      content: "";
+      background: url('../img/icons/time-icon-1.svg') no-repeat;
+      position: absolute;
+      width: 96px;
+      height: 96px;
+      top: -12px;
+      left: -26px;
+    }
+
+    &::after {
+      content: ":";
+      position: absolute;
+      left: 73px;
+    }
+  }
+
+  &__clock-4 {
+    position: relative;
+
+    &::before {
+      content: "";
+      background: url('../img/icons/time-icon-2.svg') no-repeat;
+      position: absolute;
+      width: 96px;
+      height: 96px;
+      top: -12px;
+      left: -26px;
+    }
+  }
+
+  &__counter {
+    width: 370px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}

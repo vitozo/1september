@@ -1,0 +1,154 @@
+.main-desc-img {
+  position: relative;
+
+  &-1 {
+    position: absolute;
+    top: 160px;
+    left: 0;
+
+    @media screen and (max-width: 1200px) {
+      display: none;
+    }
+  }
+
+  &-2 {
+    position: absolute;
+    top: 530px;
+    left: 0;
+    z-index: 1;
+
+    @media screen and (max-width: 1200px) {
+      display: none;
+    }
+  }
+
+  &-3 {
+    position: absolute;
+    right: 0;
+    top: 500px;
+    z-index: 1;
+
+    @media screen and (max-width: 1200px) {
+      display: none;
+    }
+  }
+
+  &-4 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+
+    @media screen and (max-width: 1200px) {
+      display: none;
+    }
+  }
+}
+
+
+
+.main-congrats {
+  background: url('../img/bg/congrats-bg.png');
+  margin-bottom: 150px;
+  position: relative;
+}
+
+.congrats {
+
+  &-pic {
+    max-width: 100%;
+  }
+
+  &__desc {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    align-items: flex-start;
+  }
+
+  &__title {
+    font-weight: 900;
+    font-size: 57px;
+    line-height: 68px;
+    text-transform: uppercase;
+    color: $blue-color;
+    margin-bottom: 15px;
+
+    &-high {
+      font-size: 70px;
+    }
+  }
+
+  &__text {
+    width: 365px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 17px;
+  }
+
+  &__btn {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 25px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 225px;
+    height: 54px;
+    background: $blue-color;
+    border-radius: 234px;
+  }
+
+  &__television {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__tv {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -56px;
+
+    @media screen and (max-width: 768px) {
+      width: 90%;
+    }
+
+    &-man {
+      position: absolute;
+      top: 466px;
+      right: 125px;
+      left: 0;
+      bottom: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      @media screen and (max-width: 768px) {
+        display: none;
+      }
+    }
+
+
+    &-youtube {
+      position: absolute;
+      top: 462px;
+      right: 131px;
+      left: 0;
+      bottom: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      @media screen and (max-width: 768px) {
+        display: none;
+      }
+    }
+  }
+}

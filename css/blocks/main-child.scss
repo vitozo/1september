@@ -1,0 +1,68 @@
+.main-child {
+  position: relative;
+  margin-bottom: 150px;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(243, 243, 243, 0) 56.77%, #FFFFFF 100%), #FFF1CB;
+
+}
+
+.child {
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  align-items: flex-start;
+  z-index: 2;
+
+  &__title {
+    font-weight: 900;
+    font-size: 57px;
+    line-height: 68px;
+    text-transform: uppercase;
+    color: $blue-color;
+    margin-bottom: 90px;
+    z-index: 2;
+  }
+
+  &__image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__img {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+  &__girl {
+    position: absolute;
+    top: 186px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  &__youtube {
+    position: absolute;
+    top: 180px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+  }
+}

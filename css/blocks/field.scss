@@ -1,0 +1,28 @@
+.field {
+  margin-bottom: 30px;
+  padding-left: 21px;
+
+  &__entry{
+    color: $blue-color;
+  }
+
+  &__input {
+    background: #FFFFFF;
+    border: 1px solid #FFF1CB;
+    box-sizing: border-box;
+    border-radius: 156px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: $blue-color;
+    width: 100%;
+    padding: 8px 20px;
+    margin-bottom: 7px;
+    outline: none;
+  }
+}
+
+::placeholder{
+  color: $blue-color;
+  opacity: 1;
+}

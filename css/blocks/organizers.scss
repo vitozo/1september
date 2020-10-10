@@ -1,0 +1,22 @@
+.organizers {
+  padding-top: 110px;
+  margin-bottom: 100px;
+
+  &__title {
+    font-weight: 900;
+    font-size: 57px;
+    line-height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #1E4295;
+    margin-bottom: 70px;
+  }
+
+  &__item{
+    display: flex;
+    justify-content: center;
+  }
+
+}

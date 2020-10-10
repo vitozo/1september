@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  width: 100%;
+  background: #F18017;
+  height: 69px;
+  opacity: 0.8;
+}
+
+.header__container {
+  display: flex;
+  /*Превратил элемент в флекс-элемент*/
+  justify-content: space-between;
+  /*Выровнял по главной оси*/
+  align-items: center;
+  /*Выровнял по поперечной оси*/
+}
+
+.header__logo {
+  padding-top: 5px;
+  /*Внутенний отступ сверху*/
+}
+
+.header__social {
+  display: flex;
+  align-items: center;
+}
+
+.header__social-list {
+  display: flex;
+  align-items: center;
+}
+
+.header__social-item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  /*Внешний отступ справа*/
+
+  &:last-child {
+    /*Отменил внешний отступ справа у последнего элемента*/
+    margin-right: 0;
+  }
+}

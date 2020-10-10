@@ -1,0 +1,100 @@
+.welcome__content {
+  display: flex;
+  width: 100%;
+
+  &-picture {
+    margin-right: 55px;
+    z-index: 1;
+    width: 50%;
+
+    @media screen and (max-width: 992px) {
+      width: 60%;
+      margin: 0;
+    }
+  }
+
+  &-text {
+    width: 50%;
+  }
+
+  &-pic {
+    max-width: 100%;
+  }
+
+  @media screen and (max-width: 992px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+
+.action {
+  display: flex;
+
+
+  &__text {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: flex-end;
+    width: 75%;
+    padding-bottom: 4px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #a5c7d7;
+    /*Установил нижнюю границу, а также ее размер и цвет*/
+  }
+
+
+}
+
+.title {
+  color: $red-color;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 60px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #a5c7d7;
+  padding-bottom: 4px;
+  margin-bottom: 35px;
+}
+
+.subtitle {
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 23px;
+  margin-bottom: 10px;
+}
+
+.text-first {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 10px;
+}
+
+.text-second {
+  display: flex;
+  font-size: 16px;
+  line-height: 19px;
+
+  &__img {
+    margin-right: 6px;
+    transform: translateY(-10px);
+    /*Применил функцию, для перемещения элемента по оси Y*/
+  }
+}
+
+.text-span {
+  color: $red-color;
+  letter-spacing: 1.3;
+  /*Установил растяние между буквами ваше стандартного*/
+  font-weight: bold;
+}
+
+
+.welcome__desc {
+  display: flex;
+}
