@@ -64,7 +64,7 @@
   &__nav-link:hover {
     /*Добавил hover-эффект*/
     content: "";
-    background: url('../../img/icons/hover.svg') no-repeat;
+    background: url('../img/icons/hover.svg') no-repeat;
     width: 100%;
     height: 30px;
     /*Высота эжлементы*/
@@ -86,7 +86,7 @@
   content: "";
   position: absolute;
   /*Применил абсолютное позиционирование*/
-  background: url(../../img/content/welcome-leaf-left.png) no-repeat;
+  background: url(../img/content/welcome-leaf-left.png) no-repeat;
   top: 0;
   left: 0;
   height: 100%;
@@ -101,7 +101,7 @@
 .welcome:after {
   content: "";
   position: absolute;
-  background: url(../../img/content/welcome-leaf-right.png) no-repeat;
+  background: url(../img/content/welcome-leaf-right.png) no-repeat;
   top: 0;
   right: -29px;
   height: 100%;
